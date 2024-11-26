@@ -1,0 +1,177 @@
+*{ 
+   margin: 1px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: Atkinson Hyperlegible;
+}
+
+body{
+    height: 95vh;
+    background: #15241E;
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+} 
+
+header{
+    background: #525C51;
+    padding: 2em 0 2em 0;
+    
+    .navdiv{
+        display:flex; align-items: center; justify-content: space-between;
+    }
+        body{
+            height: 100hv;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: #1daf;
+        }
+        .navdiv{
+            width:auto;
+            height:45px;
+            display: flex;
+            padding: 5px 15px;
+            background:#85968C;
+            border-radius: 30px;
+            align-items:center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        .box{
+            height:30px;
+            display: flex;
+            cursor: pointer;
+            padding: 5px 15px;
+            background:#15241E;
+            border-radius: 30px;
+            align-items:center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        .material-symbols-outlined{
+            color: #F9740D;
+        }
+            .search-input{
+                font-size: 16px;
+                font-family:'Lexend' ,sans-serif;
+                color: #333333;
+                margin-left: 14px;
+            }
+            .box:hover input{
+                width:140px;
+            }
+            .box input{
+                width:0;
+                outline: none;
+                border: none;
+                font-weight: 500;
+                transition: 0.8s;
+                background: transparent;
+            }
+            .box a .fas{
+                color:#1daf;
+                font-size: 18px;
+            }
+            .logo a{
+                font-size: 35px; font-weight: 600; color: white;
+            }
+            li{
+                list-style: none; display: inline-block;
+            }
+            li a{
+                color:white; font-size: 18px; font-weight: bold; margin-right: 25px;
+            }
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}    
+          div.desc {
+        padding: 15px;
+        text-align: center;
+          }
+
+.left {
+    background: #525C51;
+    padding: 3em 0 3em 0;
+    flex: 1 1 25px;
+}
+
+main{
+    background: #525C51;
+    padding: 3em 0 3em 0;
+    flex: 5 5 150px;
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 20px
+    }
+    align-items: center; /* Aligns images vertically (optional) */
+    text-align: center;
+    margin: 10px;
+    
+
+    .image-container {
+        display: flex; /* Enables Flexbox */
+        flex-wrap: wrap; /* Allows images to wrap to the next line if needed */
+        gap: 10px; /* Adds spacing between images */
+        justify-content: center; /* Centers images horizontally */
+        align-items: center; /* Aligns images vertically (optional) */  
+      }
+    .weekindeling{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 95px; 
+    }
+      .image-container img {
+        width: 200px; /* Set a consistent width for the images */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px; /* Optional: Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+      }
+
+        .image1:hover {
+        transform: scale(1.05); /* Enlarge */
+        border: 2px solid #F9740D; /* Red border */
+        }
+        .image2:hover {
+            transform: scale(1.05); /* Enlarge */
+            border: 2px solid #F9740D; /* Red border */
+        }
+        .image3:hover {
+            transform: scale(1.05); /* Enlarge */
+            border: 2px solid #F9740D; /* Red border */
+        }
+        .image4:hover {
+            transform: scale(1.05); /* Enlarge */
+            border: 2px solid #F9740D; /* Red border */
+        }
+
+
+
+}   
+.right {
+    background: #525C51;
+    padding: 3em 0 3em 0;
+    flex: 1 1 25px;
+}
+
+
+footer{
+    background: #525C51;
+    padding: 2em 0 2em 0;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction:column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
+}
