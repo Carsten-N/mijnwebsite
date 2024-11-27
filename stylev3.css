@@ -14,8 +14,7 @@ body{
     font-size: 24px;
     display: flex;
     flex-direction: column;
-} 
-
+}  
 header{
     background: #525C51;
     padding: 2em 0 2em 0;
